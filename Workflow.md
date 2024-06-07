@@ -11,6 +11,7 @@
 6. ```cd``` into project folder ```ai_blog_app``` and create django app using ```python3 manage.py startapp blog_generator```
     - Project: ```C:\Users\HP\Documents\KESHTECH\PYTHON\Python_Projects\AI-YT-Blog_Generator\backend\ai_blog_app\ai_blog_app```
     - App: ```C:\Users\HP\Documents\KESHTECH\PYTHON\Python_Projects\AI-YT-Blog_Generator\backend\ai_blog_app\blog_generator```
+    - Be able to run the app using ```python3 manage.py runserver``` at the base directory i.e ```ai_blog_app```
 7. Add the app ```blog_generator``` to ```Project\settings.py``` under ```INSTALLED_APPS```
     ```
     INSTALLED_APPS = [
@@ -33,4 +34,5 @@
     - Add the templates to ```Project\settings.py``` under ```TEMPLATES``` under ```'DIRS': [BASE_DIR, 'templates']```
     - Copy all the html files into the ```templates``` folder
 
-    
+### PostgreSQL Database
+12. visit ```console.qovery.com``` to start using a managed database for production    

@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(blog_generator.urls)) # Check the blog_generator.urls and do what is in the home page path 
+    path('', include('blog_generator.urls')) # Check the blog_generator.urls and do what is in the home page path 
 ]
